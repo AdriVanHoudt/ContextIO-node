@@ -12,11 +12,11 @@ exports.data = {
 		updateParams: {
 			first_name: "Jimmy"
 		},
-		
+
 		connect_tokens: {
 			account_id: "A VALID ACCOUNT_ID ON WHICH TOKENS ARE TESTED"
 		},
-		
+
 		contacts: {
 			account_id: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			email: "AN EMAIL ADDRESS OF AN EXISTING CONTACT IN THE ABOVE ACCOUNT",
@@ -24,7 +24,7 @@ exports.data = {
 				search: ["A SEARCH STRING", "THE EMAIL ADDRESS THAT SHOULD BE FOUND BY THAT STRING"]
 			}
 		},
-		
+
 		email_addresses: {
 			account_id: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			existing: ["EMAIL ADDRESSES THIS ACCOUNTS ALREADY HAS"],
@@ -32,11 +32,11 @@ exports.data = {
 				email_address: "jim@bob.com"
 			}
 		},
-		
+
 		files: {
 			account_id: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			file_id: 'AN EXISTING FILE_ID IN THE ABOVE ACCOUNT',
-			file_id_size: SIZE_OF_FILE_ABOVE_IN_BYTES,
+			file_id_size: 'SIZE_OF_FILE_ABOVE_IN_BYTES',
 			listFilter: {
 				params: {
 					file_name: "*.pdf",
@@ -46,7 +46,7 @@ exports.data = {
 				expectedType: 'application/pdf'
 			}
 		},
-		
+
 		messages: {
 			accountId: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			messageId: 'AN EXISTING MESSAGE_ID IN THE ABOVE ACCOUNT',
@@ -56,10 +56,10 @@ exports.data = {
 				trashFolder: 'PATH TO TRASH FOLDER TO MOVE THE TEST MESSAGE TO AFTER SUCCESSFUL POST (EG. "[Gmail]/Trash")'
 			},
 			flags: {
-				
+
 			}
 		},
-		
+
 		sources: {
 			accountId: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			label: "VALID SOURCE LABEL ON THE ABOVE ACCOUNT",
@@ -76,17 +76,17 @@ exports.data = {
 			folderAddAccount: 'ACCOUNT ID ON WHICH FOLDER CREATION WILL BE TESTED ON',
 			folderAddSource: 'LABEL OF SOURCE IN ABOVE ACCOUNT FOLDER CREATION WILL BE TESTED ON'
 		},
-		
+
 		sync: {
 			accountId: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			sourceLabel: "VALID SOURCE LABEL ON THE ABOVE ACCOUNT",
 		},
-		
+
 		threads: {
 			accountId: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			gmThreadId: 'A VALID THREAD ID (EG. "gm-134b3b2ee7b668a9")'
 		},
-		
+
 		webhooks: {
 			accountId: "ACCOUNT ID TO TEST THIS RESOURCE ON",
 			createParams: {
